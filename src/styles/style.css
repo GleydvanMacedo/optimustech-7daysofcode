@@ -1,0 +1,33 @@
+@import url("./navbar.css");
+@import url("./header.css");
+@import url("./metrics.css");
+@import url("./vacancies.css");
+@import url("./review.css");
+@import url("./footer.css");
+
+:root{
+    /* FONT */
+    --font: 'Inter', sans-serif;
+
+    /* COLORS */
+    --logo-text-color: #3A404E;
+    --black-text-color: #101828;
+    --gray-text-color: #667085;
+    --gray-text-copyright: #98A2B3;
+    --lightgray-border-color: #EAECF0;
+    --darkred: #8E2424;
+    --transparent-darkred-button: #8E242405;
+    --transparent-red-card: #C3191903;
+    --footer-background-color: #F9FAFB;
+    --input-border: #D0D5DD;
+    --white: #FFFFFF;
+    
+}
+
+body{
+    background-color: var(--white);
+    font-family: var(--font);
+    font-size: 1rem;
+    width: 100%;
+    height: 100vh;
+}

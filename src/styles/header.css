@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 6rem 0;
+}
+
+.header__subtitle{
+    color: var(--darkred);
+    font-weight: 600;
+}
+
+.header__title{
+    color: var(--black-text-color);
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 0rem 2rem;
+}
+
+.header__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__content__text{
+    color: var(--gray-text-color);
+    font-size: 1.25rem;
+    padding-top: 0.8rem;
+}

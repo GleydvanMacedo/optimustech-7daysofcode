@@ -1,0 +1,36 @@
+.metrics-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 2rem;
+    padding-bottom: 6rem;
+    margin: 0rem 5rem;
+    
+}
+
+.metrics-container__metric{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+
+    width: 17.5rem;
+}
+
+.metric__title{
+    color: var(--darkred);
+    font-size: 3.75rem;
+    font-weight: 600;
+}
+
+.metric__subtitle{
+    color: var(--black-text-color);
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.metric__text{
+    color: var(--gray-text-color);
+    line-height: 1.4;
+}
